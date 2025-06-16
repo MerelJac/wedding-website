@@ -43,14 +43,14 @@ export default function FAQ() {
         <h2 >We’ve got answers.</h2>
       </div>
 
-      <div className="flex justify-start gap-4  border-gray-200">
+      <div className="flex justify-start gap-4 ">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             className={`py-2 px-4 font-medium ${
               activeTab === tab.id
-                ? "text-white bg-gray rounded-t-lg"
-                : "text-gray"
+                ? "text-white bg-black rounded-t-lg"
+                : "text-black"
             }`}
             onClick={() => setActiveTab(tab.id)}
           >
@@ -59,7 +59,7 @@ export default function FAQ() {
         ))}
       </div>
 
-      <div className="bg-gray text-white p-6 rounded-b-2xl rounded-tr-2xl">
+      <div className="bg-black text-white p-6 rounded-b-2xl rounded-tr-2xl">
         {tabContent[activeTab]}
       </div>
     </div>

@@ -38,6 +38,7 @@ body {
 .fcc__label {
   font-family: 'Raleway', cursive !important;
   font-size: 2rem;
+  color: white !important;
 }
 
 code {

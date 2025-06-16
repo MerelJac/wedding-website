@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function WeddingInfo() {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-100 max-w-6xl mx-auto p-6 rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center bg-white max-w-6xl mx-[1rem] rounded-2xl shadow-lg px-10 py-8">
       <div>
         <h1 className="text-center">Happily Ever After Party</h1>
       </div>
