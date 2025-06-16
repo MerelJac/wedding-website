@@ -28,7 +28,7 @@ export default function Tiles() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
-      <h2 className="text-center mb-10">Fun Facts</h2>
+      <h1 className="text-center mb-10">Fun Facts</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
         {faqItems.map((item, index) => (
           <div

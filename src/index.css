@@ -35,6 +35,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.fcc__label {
+  font-family: 'Raleway', cursive !important;
+  font-size: 2rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -56,3 +61,4 @@ code {
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+

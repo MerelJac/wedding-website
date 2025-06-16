@@ -7,11 +7,18 @@ function WeddingInfo() {
       <div>
         <h1 className="text-center">Happily Ever After Party</h1>
       </div>
-      <div className="flex flex-col items-center justify-center">
-        <h3>Rodeo Hills Winery</h3>
-        <p>Dundee, Oregon</p>
-        <p>Saturday August 8, 2026</p>
-        <p>5 - 9 PM</p>
+      <div className="flex flex-col items-center justify-center min-w-full">
+        <div className="flex flex-row justify-between items-center min-w-full px-6">
+          <div className="flex flex-col text-start">
+            <h3>Rodeo Hills Winery</h3>
+            <p>Dundee, Oregon</p>
+          </div>
+          <div className="flex flex-col text-end">
+            <p>Saturday August 8, 2026</p>
+            <p>5 - 9 PM</p>
+          </div>
+        </div>
+
         <div className=" flex flex-col items-center justify-center py-4 text-center max-w-2xl">
           <h3 className="text-center max-w-2xl">
             After a small family ceremony on Friday, we’d love for you to join
