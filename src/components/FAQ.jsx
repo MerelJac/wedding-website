@@ -9,25 +9,28 @@ const tabs = [
 const tabContent = {
   travel: (
     <div>
-      <h3>Nearest Airport</h3>
-      <p>Fly into XYZ International. Shuttles will be available.</p>
-      <h3>Hotel Info</h3>
-      <p>We have a block at the Cozy Inn — mention our names for a discount.</p>
+      <h3>Airport</h3>
+      <p>Fly into PDX </p>
+      <p>There is public transport or Uber/Lyfts into the city.</p>
+      <h3 className="pt-4">Venue</h3>
+      <p>Rodeo Hills Winery is about a 40 minute drive of Portland.</p>
+      <h3 className="pt-4">Lodging</h3>
+      <p>Feel free to stay wherever you want, but the newly weds will be staying in Dundee, OR the weekend of the wedding.</p>
     </div>
   ),
   things: (
     <div>
       <h3>Explore the Area</h3>
-      <p>Great restaurants, wine tastings, and hikes nearby!</p>
+      <p>The Pacific Northwest in the summer is beautiful! Since the party is Saturday evening, make your trip worth while by hitting some hikes, lakes, shopping, and most importantly, eating in Portland.</p>
     </div>
   ),
   faq: (
     <div>
-      <h3>What should I wear?</h3>
-      <p>Semi-formal, outdoor attire is best.</p>
-      <h3>Can I bring a plus one?</h3>
-      <p>Yes, if your invite includes one — RSVP with their name.</p>
-      <h3>Will there be food and drinks?</h3>
+      <h3 >What should I wear?</h3>
+      <p>Think swanky winery! Wear suitable shoes for dancing and being both indoors and outdoors.</p>
+      <h3 className="pt-4">Can I bring a plus one?</h3>
+      <p>Short answer - nope! Whoever's name is on the invite is who we want with us! Thank you for understanding.</p>
+      <h3 className="pt-4">Will there be food and drinks?</h3>
       <p>You bet! Come hungry and ready to toast.</p>
     </div>
   ),
@@ -37,11 +40,7 @@ export default function FAQ() {
   const [activeTab, setActiveTab] = useState("travel");
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <div className="text-center mb-6">
-        <h1 className="mb-2">You’ve got questions?</h1>
-        <h2 >We’ve got answers.</h2>
-      </div>
+    <div className="max-w-6xl mx-auto py-36">
 
       <div className="flex justify-start gap-4 ">
         {tabs.map((tab) => (
@@ -49,8 +48,8 @@ export default function FAQ() {
             key={tab.id}
             className={`py-2 px-4 font-medium ${
               activeTab === tab.id
-                ? "text-white bg-black rounded-t-lg"
-                : "text-black"
+                ? "text-black bg-white rounded-t-lg"
+                : "text-white"
             }`}
             onClick={() => setActiveTab(tab.id)}
           >
@@ -59,7 +58,7 @@ export default function FAQ() {
         ))}
       </div>
 
-      <div className="bg-black text-white p-6 rounded-b-2xl rounded-tr-2xl">
+      <div className="bg-white text-black p-6">
         {tabContent[activeTab]}
       </div>
     </div>

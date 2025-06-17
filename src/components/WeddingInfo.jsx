@@ -3,12 +3,12 @@ import Button from "./Button";
 
 function WeddingInfo() {
   return (
-    <div className="flex flex-col items-center justify-center bg-white max-w-6xl mx-[1rem] rounded-2xl shadow-lg px-10 py-8">
+    <div className="flex flex-col items-center justify-center bg-white shadow-lg px-10 py-8">
       <div>
         <h1 className="text-center">Happily Ever After Party</h1>
       </div>
-      <div className="flex flex-col items-center justify-center min-w-full">
-        <div className="flex flex-row justify-between items-center min-w-full px-6">
+      <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-row justify-between items-center px-6 min-w-full">
           <div className="flex flex-col text-start">
             <h3>Rodeo Hills Winery</h3>
             <p>Dundee, Oregon</p>

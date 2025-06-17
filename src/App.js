@@ -13,9 +13,7 @@ function App() {
 
       <div className="relative z-20">
         <Header />
-        <div className="flex justify-center">
           <WeddingInfo />
-        </div>
         <FAQ />
         <div className="bg-white">
           <MrMrs />
