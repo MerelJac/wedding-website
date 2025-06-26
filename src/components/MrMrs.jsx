@@ -1,7 +1,7 @@
-import React from "react";
 import headshot from "../assets/headshot.jpg"; 
-
+import 'aos/dist/aos.css';
 function MrMrs() {
+
   return (
     <div className="text-center py-12">
       <div>
@@ -11,7 +11,7 @@ function MrMrs() {
 
       <section className="flex flex-col md:flex-row items-center justify-center gap-12">
         {/* Groom */}
-        <div className="flex flex-col items-center justify-center text-center">
+        <div data-aos="fade-right" className="flex flex-col items-center justify-center text-center">
           <img src={headshot} alt="Matthew" className="w-80 h-124 object-cover" />
           <h2 >Matthew</h2>
           <p >The Groom</p>
@@ -20,7 +20,7 @@ function MrMrs() {
         </div>
 
         {/* Bride */}
-        <div className="flex flex-col items-center justify-center text-center">
+        <div data-aos="fade-left" className="flex flex-col items-center justify-center text-center">
           <img src={headshot} alt="Merel" className="w-80 h-124 object-cover" />
           <h2 >Merel</h2>
           <p >The Bride</p>

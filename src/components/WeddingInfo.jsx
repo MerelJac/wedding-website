@@ -8,7 +8,7 @@ function WeddingInfo() {
         <h1 className="text-center">Happily Ever After Party</h1>
       </div>
       <div className="flex flex-col items-center justify-center ">
-        <div className="flex flex-row justify-between items-center px-6 min-w-full">
+        <div className="flex flex-row justify-between items-center gap-12">
           <div className="flex flex-col text-start">
             <h3>Rodeo Hills Winery</h3>
             <p>Dundee, Oregon</p>
@@ -19,7 +19,7 @@ function WeddingInfo() {
           </div>
         </div>
 
-        <div className=" flex flex-col items-center justify-center py-4 text-center max-w-2xl">
+        <div className=" flex flex-col items-center justify-center py-4 text-center max-w-4xl">
           <h3 className="text-center max-w-2xl">
             After a small family ceremony on Friday, we’d love for you to join
             us for a celebration!

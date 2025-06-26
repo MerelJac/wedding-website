@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState} from "react";
 
 const faqItems = [
   {
@@ -20,6 +20,7 @@ const faqItems = [
 ];
 
 export default function Tiles() {
+
   const [flippedIndex, setFlippedIndex] = useState(null);
 
   const handleFlip = (index) => {
@@ -29,15 +30,17 @@ export default function Tiles() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
       <h1 className="text-center mb-10 text-white">Fun Facts</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div data-aos="zoom-in" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
         {faqItems.map((item, index) => (
           <div
             key={index}
             className="relative perspective"
             onClick={() => handleFlip(index)}
+            onMouseEnter={() => window.innerWidth > 768 && handleFlip(index)}
+            onMouseLeave={() => window.innerWidth > 768 && handleFlip(index)}
           >
             <div
-              className={`transition-transform duration-700 transform-style-preserve-3d w-full h-48 rounded-xl shadow-lg cursor-pointer ${
+              className={`transition-transform transform duration-700 transform-style-preserve-3d w-full h-48 rounded-xl shadow-lg cursor-pointer ${
                 flippedIndex === index ? "rotate-y-180" : ""
               }`}
             >
