@@ -1,29 +1,45 @@
-import {useState } from "react";
-
+import { useState } from "react";
 
 const faqItems = [
   {
-    question: "What should I wear?",
-    answer: "The wedding will be outdoors. We recommend semi-formal attire.",
+    question: "What did Merel & Matthew do for their 'second date'?",
+    answer: "Long weekend in Victoria, Canada.",
   },
   {
-    question: "Can I bring a plus one?",
-    answer: "Yes! If your invite includes a plus one, RSVP with their name.",
+    question:
+      "What sport was required for Matthew to be accepted into Merel's family?",
+    answer: "Skiing, duh!",
   },
   {
-    question: "Will there be food and drinks?",
-    answer: "Absolutely! Come hungry and ready to toast.",
+    question: "How did Matthew & Merel meet?",
+    answer: "Hinge...",
   },
   {
-    question: "Are kids allowed?",
-    answer: "Our wedding is an adults-only celebration.",
+    question: "What lazy dinner do they have a little too often?",
+    answer: "Frozen pizza.",
   },
+  {
+    question: "Where did Matthew propose?",
+    answer: "On the beach outside of Amsterdam - Zandvoort & Zee",
+  },
+  {
+    question: "What is Matthew's non-negotiable?",
+    answer:
+      "Golf clubs can stay in the living room where driving and putting can be practiced often.",
+  },
+  {
+    question: "What O'Brien family tradition did Merel get adopted into?",
+    answer: "Fireball Friday!",
+  },
+  {
+    question:
+      "When Matthew & Merel first started dating, who was the last person of girlfriend approval needed?",
+    answer: "His pedicureist @ Sparkle Nail",
+  }
 ];
 
 export default function Tiles() {
-
   const [flippedIndex, setFlippedIndex] = useState(null);
-
 
   const handleFlip = (index) => {
     setFlippedIndex(index === flippedIndex ? null : index);
@@ -31,8 +47,10 @@ export default function Tiles() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
-      <h1 className="text-center mb-10 text-white">Fun Facts</h1>
-      <div data-aos="zoom-in" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div
+        data-aos="zoom-in"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6"
+      >
         {faqItems.map((item, index) => (
           <div
             key={index}
@@ -42,16 +60,16 @@ export default function Tiles() {
             onMouseLeave={() => window.innerWidth > 768 && handleFlip(index)}
           >
             <div
-              className={`transition-transform transform duration-700 transform-style-preserve-3d w-full h-48 rounded-xl shadow-lg cursor-pointer ${
+              className={`transition-transform transform duration-700 transform-style-preserve-3d w-full h-48 rounded-sm shadow-lg cursor-pointer ${
                 flippedIndex === index ? "rotate-y-180" : ""
               }`}
             >
               {/* Front */}
-              <div className="absolute backface-hidden bg-white text-black rounded-xl w-full h-full flex items-center justify-center p-4 text-center text-xl font-bold border border-gray-300">
+              <div className="absolute backface-hidden bg-white text-black rounded-sm w-full h-full flex items-center justify-center p-4 text-center text-xl font-bold border border-gray-300">
                 {item.question}
               </div>
               {/* Back */}
-              <div className="absolute backface-hidden rotate-y-180 bg-black text-white rounded-xl w-full h-full flex items-center justify-center p-4 text-center text-lg border border-gray-700">
+              <div className="absolute backface-hidden rotate-y-180 bg-black text-white rounded-sm w-full h-full flex items-center justify-center p-4 text-center text-lg border border-gray-700">
                 {item.answer}
               </div>
             </div>

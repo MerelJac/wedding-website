@@ -1,20 +1,20 @@
 import "aos/dist/aos.css";
 import "./App.css";
-import FAQ from "./components/FAQ";
 import Header from "./components/Header";
 import MrMrs from "./components/MrMrs";
 import Tiles from "./components/Tiles";
-import WeddingInfo from "./components/WeddingInfo";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Info from "./components/Info";
+import QA from "./components/QA";
+import Buttons from "./components/Buttons";
 
 function App() {
   useEffect(() => {
-    AOS.init({ 
-      duration: 800, 
-      // once: true 
+    AOS.init({
+      duration: 1000,
+      // once: true
     });
   }, []);
 
@@ -24,9 +24,9 @@ function App() {
 
       <div className="relative z-20">
         <Header />
-        {/* <WeddingInfo /> */}
         <Info />
-        <FAQ />
+        <Buttons/>
+        <QA />
         <div className="bg-white">
           <MrMrs />
         </div>

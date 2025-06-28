@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "./Button";
+import Buttons from "./Buttons";
 
 function Info() {
   return (
     <div className="flex bg-white shadow-lg px-10 py-12  min-h-[60vh] items-center">
       {/* Main content */}
-      <div data-aos="fade-right"  className="flex flex-col justify-start w-full">
+      <div data-aos="zoom-in" className="flex flex-col justify-start w-full">
         {/* Top Info Row */}
         <div className="flex flex-col justify-between text-start mb-6">
           <h3 className="text-xl font-semibold">Rodeo Hills Winery</h3>
@@ -28,12 +29,11 @@ function Info() {
       </div>
 
       {/* Right-side rotated title */}
-      <div  data-aos="fade-left"  className=" whitespace-nowrap">
-        <h1 className="text-4xl transform rotate-90" >
+      <div data-aos="fade-left" className=" whitespace-nowrap">
+        <h1 className="text-4xl transform rotate-90">
           Happily Ever After Party
         </h1>
       </div>
-
     </div>
   );
 }
