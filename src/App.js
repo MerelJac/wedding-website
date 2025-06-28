@@ -1,12 +1,22 @@
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import "./App.css";
 import FAQ from "./components/FAQ";
 import Header from "./components/Header";
 import MrMrs from "./components/MrMrs";
 import Tiles from "./components/Tiles";
 import WeddingInfo from "./components/WeddingInfo";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import Info from "./components/Info";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ 
+      duration: 800, 
+      // once: true 
+    });
+  }, []);
 
   return (
     <div className="relative top-0 left-0 w-full min-h-screen bg-[url('./assets/wedding.jpg')] bg-cover bg-no-repeat bg-fixed">
@@ -14,7 +24,8 @@ function App() {
 
       <div className="relative z-20">
         <Header />
-        <WeddingInfo />
+        {/* <WeddingInfo /> */}
+        <Info />
         <FAQ />
         <div className="bg-white">
           <MrMrs />

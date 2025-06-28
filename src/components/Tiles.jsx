@@ -1,4 +1,5 @@
-import { useState} from "react";
+import {useState } from "react";
+
 
 const faqItems = [
   {
@@ -22,6 +23,7 @@ const faqItems = [
 export default function Tiles() {
 
   const [flippedIndex, setFlippedIndex] = useState(null);
+
 
   const handleFlip = (index) => {
     setFlippedIndex(index === flippedIndex ? null : index);
