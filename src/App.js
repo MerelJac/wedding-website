@@ -25,12 +25,12 @@ function App() {
       <div className="relative z-20">
         <Header />
         <Info />
-        <Buttons/>
-        <QA />
-        <div className="bg-white">
+        <Buttons />
+        <div className="bg-[url('./assets/coffee.jpg')] bg-cover bg-no-repeat bg-fixed">
+          <QA />
           <MrMrs />
+          <Tiles />
         </div>
-        <Tiles />
       </div>
     </div>
   );
