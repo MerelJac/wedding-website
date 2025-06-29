@@ -53,7 +53,7 @@ export default function QA() {
   const [activeTab, setActiveTab] = useState("travel");
 
   return (
-    <div className="flex bg-white shadow-lg px-10 py-12  min-h-[60vh] items-center flex-col md:flex-row">
+    <div className="flex bg-white shadow-lg px-10 py-12  min-h-[60vh] items-center flex-col md:flex-row min-h-[60vh]">
       <div className="flex  md:flex-col justify-start gap-4 sm:border-b md:border-r md:border-b-[0px]"  >
         {tabs.map((tab) => (
           <button

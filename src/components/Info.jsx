@@ -1,10 +1,6 @@
-import React from "react";
-import Button from "./Button";
-import Buttons from "./Buttons";
-
 function Info() {
   return (
-    <div className="flex bg-white shadow-lg px-10 py-12  min-h-[60vh] items-center">
+    <div className="flex bg-white shadow-lg px-10 py-12  min-h-[80vh] items-center">
       {/* Main content */}
       <div data-aos="zoom-in" className="flex flex-col justify-start w-full">
         {/* Top Info Row */}
@@ -30,7 +26,7 @@ function Info() {
 
       {/* Right-side rotated title */}
       <div data-aos="fade-left" className=" whitespace-nowrap">
-        <h1 className="text-4xl transform rotate-90">
+        <h1 className="text-6xl transform rotate-90">
           Happily Ever After Party
         </h1>
       </div>
