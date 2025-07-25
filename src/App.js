@@ -27,7 +27,10 @@ function App() {
         <Info />
         <Buttons />
         <div className="bg-[url('./assets/outfits.png')] bg-cover bg-no-repeat bg-fixed">
-          <QA />
+          <div className="pt-6">
+            <QA />
+          </div>
+
           <MrMrs />
           <Tiles />
         </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const faqItems = [
   {
-    question: "What did Merel & Matthew do for their 'second date'?",
+    question: "What is Matthew & Merel's coined 'second date'?",
     answer: "Long weekend in Victoria, Canada.",
   },
   {

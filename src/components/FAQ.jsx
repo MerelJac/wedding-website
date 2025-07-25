@@ -46,7 +46,7 @@ export default function FAQ() {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`py-2 px-4 font-medium ${
+            className={`py-2 px-4 sm:text-sm md:text-md${
               activeTab === tab.id
                 ? "text-black bg-white rounded-t-lg"
                 : "text-white"
