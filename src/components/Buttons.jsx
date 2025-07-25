@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Buttons() {
   return (
-    <div className="bg-[url('./assets/info.png')] bg-cover bg-end bg-no-repeat bg-fixed ">
+    <div className="bg-[url('./assets/stool.png')] bg-cover bg-center bg-no-repeat bg-fixed ">
       <div data-aos="zoom-out" className="flex flex-row justify-center gap-10 pt-4 items-center min-h-[60vh]">
         <Button text="RSVP" href="#"></Button>
         <Button text="Registry" href="#"></Button>

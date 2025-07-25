@@ -10,9 +10,9 @@ function Info() {
           <h3 className="text-white  text-xl font-semibold">
             Rodeo Hills Winery
           </h3>
-          <p className="text-darkBeige">Dundee, Oregon</p>
-          <p className="text-darkBeige">Saturday August 8, 2026</p>
-          <p className="text-darkBeige">5 - 9 PM</p>
+          <p className="text-white">Dundee, Oregon</p>
+          <p className="text-white">Saturday August 8, 2026</p>
+          <p className="text-white">5 - 9 PM</p>
         </div>
 
         {/* Body Text */}
@@ -21,7 +21,7 @@ function Info() {
             We are getting married Saturday morning with just the fam, but we’d love for you to join
             us for a celebration!
           </h3>
-          <p className="text-darkBeige">
+          <p className="text-white">
             There’ll be food, drinks, dancing, games, some speeches, our vows,
             and lots of good company.
           </p>
