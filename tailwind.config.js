@@ -13,7 +13,7 @@ module.exports = {
       xl: "1440px",
     },
     colors: {
-      darkBeige: "#594B3B",
+      darkBeige: "#2D190E",
       beige: "#8B765C",
       pink: "#ff49db",
       orange: "#ff7849",
@@ -25,7 +25,11 @@ module.exports = {
       black: "#2d3748",
       white: "#fff",
     },
-    extend: {},
+    extend: {
+      dropShadow: {
+        text: "1px 1px 4px rgba(0, 0, 0, 0.15)",
+      },
+    },
   },
   plugins: [],
 };

@@ -1,4 +1,5 @@
-import headshot from "../assets/headshot.jpg";
+import merel from "../assets/merel-2.png";
+import matthew from "../assets/matthew-2.png";
 import "aos/dist/aos.css";
 import FlipClock from "./FlipClock";
 function MrMrs() {
@@ -12,28 +13,30 @@ function MrMrs() {
       </div>
 
       <section className="flex flex-col md:flex-row items-center justify-center gap-12">
-        {/* Groom */}
-        <div
-          data-aos="fade-right"
-          className="flex flex-col items-center justify-center text-center"
-        >
-          <img
-            src={headshot}
-            alt="Matthew"
-            className="w-80 h-124 object-cover"
-          />
-          <h2>Matthew</h2>
-          <p>The Groom</p>
-        </div>
+      
 
         {/* Bride */}
         <div
           data-aos="fade-left"
           className="flex flex-col items-center justify-center text-center"
         >
-          <img src={headshot} alt="Merel" className="w-80 h-124 object-cover" />
+          <img src={merel} alt="Merel" className="w-80 h-124 object-cover" />
           <h2>Merel</h2>
           <p>The Bride</p>
+        </div>
+
+         {/* Groom */}
+        <div
+          data-aos="fade-right"
+          className="flex flex-col items-center justify-center text-center"
+        >
+          <img
+            src={matthew}
+            alt="Matthew"
+            className="w-80 h-124 object-cover"
+          />
+          <h2>Matthew</h2>
+          <p>The Groom</p>
         </div>
       </section>
     </div>

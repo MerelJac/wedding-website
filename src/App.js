@@ -19,8 +19,8 @@ function App() {
   }, []);
 
   return (
-    <div className="relative top-0 left-0 w-full min-h-screen bg-[url('./assets/wedding.jpg')] bg-cover bg-no-repeat bg-fixed">
-      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10 pointer-events-none"></div>
+    <div className="relative top-0 left-0 w-full min-h-screen bg-[url('./assets/hand.png')] bg-center bg-start bg-cover bg-no-repeat bg-fixed">
+      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-10 z-10 pointer-events-none"></div>
 
       <div className="relative z-20">
         <Header />
