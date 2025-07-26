@@ -24,11 +24,25 @@
   color: white;
 }
 
+/* mobile */
+    @media (max-width: 768px) {
+      .fcc, ._qWTcH {
+        flex-direction: column;
+      }
+      .fcc__separator {
+        display: none !important;
+      }
+    }
 .App-link {
   color: #61dafb;
 }
 
-
+.fcc__digit_block div {
+  background-color: #2d190e !important;
+}
+.fcc__digit_block div, .fcc__label {
+  font: #e5e0d5 !important;
+}
 
 @keyframes App-logo-spin {
   from {

@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import Info from "./components/Info";
 import QA from "./components/QA";
 import Buttons from "./components/Buttons";
+import ThankYou from "./components/ThankYou";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
 
           <MrMrs />
           <Tiles />
+          <ThankYou/>
         </div>
       </div>
     </div>

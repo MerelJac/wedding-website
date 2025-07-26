@@ -15,7 +15,7 @@ module.exports = {
     colors: {
       darkBeige: "#2D190E",
       beige: "#8B765C",
-      pink: "#ff49db",
+      backgrounBeige: "#E5E0D5",
       orange: "#ff7849",
       green: "#13ce66",
       yellow: "#ffc82c",
