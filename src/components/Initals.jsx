@@ -1,10 +1,8 @@
-import React from "react";
-import FlipClock from "./FlipClock";
 import logo from "../assets/logo-w.png"
 function Initials() {
   return (
     <div className="absolute">
-      <img src={logo} className="max-w-md"></img>
+      <img src={logo} alt="merel and matthew" className="sm:max-w-sm md:max-w-md"></img>
     </div>
   );
 }

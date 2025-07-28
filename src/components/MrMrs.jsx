@@ -12,7 +12,7 @@ function MrMrs() {
         </div>
       </div>
 
-      <section className="flex flex-col md:flex-row items-center justify-center gap-12">
+      <section className="flex flex-row items-center justify-center gap-12">
       
 
         {/* Bride */}

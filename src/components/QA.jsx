@@ -26,7 +26,7 @@ const tabContent = {
       <h3>Explore the Area</h3>
       <p>
         The Pacific Northwest in the summer is beautiful! Since the party is
-        Saturday evening, make your trip worth while by hitting some hikes,
+        Saturday evening, make your trip worthwhile by hitting some hikes,
         lakes, shopping, and most importantly, eating in Portland.
       </p>
     </div>
@@ -52,25 +52,38 @@ const tabContent = {
 export default function QA() {
   const [activeTab, setActiveTab] = useState("travel");
 
+  const active = tabs.find((t) => t.id === activeTab);
+  const inactives = tabs.filter((t) => t.id !== activeTab);
+
   return (
-    <div className="flex  px-10 py-12  min-h-[60vh] items-center flex-col md:flex-row min-h-[60vh] bg-backgrounBeige opacity-60 mx-4 rounded-3xl pt-4">
-      <div className="flex  md:flex-col justify-start gap-4 sm:border-b md:border-r md:border-b-[0px]"  >
-        {tabs.map((tab) => (
-          <button
-            key={tab.id}
-            className={`py-2 px-4 text-darkBeige ${
-              activeTab === tab.id
-                ? ""
-                : "font-medium "
-            }`}
-            onClick={() => setActiveTab(tab.id)}
-          >
-            {tab.label}
-          </button>
-        ))}
+    <div className="bg-beige bg-opacity-60 mx-4 mt-6 p-4 rounded-3xl shadow-md flex flex-col md:flex-row items-start gap-6">
+      {/* Tabs Container */}
+      <div className="w-full flex flex-row md:flex-col gap-2 md:gap-4 md:w-[50%]">
+        {/* Active tab (larger on mobile) */}
+        <button
+          key={active.id}
+          className="flex-1 py-4 px-4 text-white bg-darkBeige text-lg font-semibold rounded-lg md:w-full"
+          onClick={() => setActiveTab(active.id)}
+        >
+          {active.label}
+        </button>
+
+        {/* Inactive tabs (stacked right of active tab on mobile) */}
+        <div className="flex flex-col gap-2 w-[40%] md:w-full">
+          {inactives.map((tab) => (
+            <button
+              key={tab.id}
+              className="bg-darkBeige/10 text-white text-sm py-2 px-2 rounded-md md:text-base hover:bg-darkBeige/20"
+              onClick={() => setActiveTab(tab.id)}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
       </div>
 
-      <div className="text-darkBeige  p-6">{tabContent[activeTab]}</div>
+      {/* Tab Content */}
+      <div className="text-darkBeige w-full md:pl-6">{tabContent[activeTab]}</div>
     </div>
   );
 }

@@ -13,6 +13,13 @@
   }
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

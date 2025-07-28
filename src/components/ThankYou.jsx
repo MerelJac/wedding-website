@@ -1,15 +1,16 @@
-
-
-import React from "react";
 import headshot from "../assets/headshot.png";
-
+import thanks from "../assets/thanks.png";
 function ThankYou() {
   return (
-    <div className="bg-[url('./assets/hands.png')] bg-cover bg-center bg-no-repeat bg-fixed shadow-lg px-10 py-12 min-h-[80vh] flex items-center">
-      <img src={headshot} alt="Headshot" className=" object-contain" />
+    <div className="bg-[url('./assets/hands.png')] bg-cover bg-center bg-no-repeat bg-fixed shadow-lg px-6 py-10 min-h-[80vh] flex flex-col md:flex-row items-center justify-center gap-6">
+      <img
+        src={headshot}
+        alt="Headshot"
+        className="object-contain max-w-[200px] md:max-w-[250px]"
+      />
 
-      <div data-aos="fade-left" className="text-start mr-6 min-w-fit">
-        <h2 className="text-8xl font-bold text-darkBeige transform rotate-90">Thanks for celebrating with us!</h2>
+      <div data-aos="fade-left" className="text-center md:text-left">
+        <img className="md:max-w-[30vw]" src={thanks} alt="thanks" ></img>
       </div>
     </div>
   );
