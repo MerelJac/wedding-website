@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-  "predeploy": "npm run build && mv build docs", 
-  "deploy": "gh-pages -d docs" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +46,5 @@
     "gh-pages": "^6.3.0",
     "tailwindcss": "^3.4.17"
   },
-  "homepage": "https://mereljac.github.io/wedding"
+  "homepage": "https://mereljac.github.io/wedding-website/"
 }
