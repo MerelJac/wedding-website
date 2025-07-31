@@ -13,13 +13,13 @@
   }
 }
 
-/* html, body {
+html, body {
   overflow-x: hidden;
 
-} */
-/* body {
+}
+body {
   position: relative
-} */
+}
 
 .App-header {
   background-color: #282c34;
