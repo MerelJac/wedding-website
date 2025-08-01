@@ -12,14 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/* 
-html, body {
-  overflow-x: hidden;
 
+html,
+body {
+  overflow-x: hidden;
 }
 body {
-  position: relative
-} */
+  position: relative;
+}
 
 .App-header {
   background-color: #282c34;
@@ -33,14 +33,18 @@ body {
 }
 
 /* mobile */
-    @media (max-width: 768px) {
-      .fcc, ._qWTcH {
-        flex-direction: column;
-      }
-      .fcc__separator {
-        display: none !important;
-      }
-    }
+@media (max-width: 768px) {
+  .fcc,
+  ._qWTcH {
+    flex-direction: column;
+  }
+  p {
+    font-size: medium;
+  }
+  .fcc__separator {
+    display: none !important;
+  }
+}
 .App-link {
   color: #61dafb;
 }
@@ -48,7 +52,8 @@ body {
 .fcc__digit_block div {
   background-color: #2d190e !important;
 }
-.fcc__digit_block div, .fcc__label {
+.fcc__digit_block div,
+.fcc__label {
   font: #e5e0d5 !important;
 }
 

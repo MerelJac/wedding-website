@@ -6,6 +6,7 @@ const tabs = [
   { id: "faq", label: "FAQs" },
 ];
 
+
 const tabContent = {
   travel: (
     <div>

@@ -1,8 +1,13 @@
-import logo from "../assets/logo-w.png"
+import logo from "../assets/logo-w.png";
+
 function Initials() {
   return (
-    <div className="absolute">
-      <img src={logo} alt="merel and matthew" className="sm:max-w-sm md:max-w-md"></img>
+    <div className="relative z-10">
+      <img
+        src={logo}
+        alt="Merel and Matthew"
+        className="max-w-[60vw] sm:max-w-sm md:max-w-md"
+      />
     </div>
   );
 }

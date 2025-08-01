@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import FlipClock from "./FlipClock";
 function MrMrs() {
   return (
-    <div className="text-center py-12">
+    <div className="text-center md:py-12">
       <div className="flex flex-col items-center">
         <h1 className="text-white">Mr & Mrs O'Brien</h1>
         <div data-aos="fade-up">
