@@ -23,7 +23,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "full-deploy": "npm run build && git add -A && git commit -m \"build\" && git push && gh-pages -d build"
+"full-deploy": "npm run build && rm -rf docs && mv build docs && git add -A && git commit -m \"build\" && git push"
+
   },
   "eslintConfig": {
     "extends": [
