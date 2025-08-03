@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/wedding-website/static/css/main.dfcff5ec.css",
-    "main.js": "/wedding-website/static/js/main.7000ae74.js",
+    "main.css": "/wedding-website/static/css/main.81ef02cb.css",
+    "main.js": "/wedding-website/static/js/main.db7a4d47.js",
     "static/js/453.770c9077.chunk.js": "/wedding-website/static/js/453.770c9077.chunk.js",
     "static/media/stool.png": "/wedding-website/static/media/stool.bfb637380848e23042cd.png",
+    "static/media/outfits.png": "/wedding-website/static/media/outfits.2eff4ed4fa6839cf97cc.png",
     "static/media/hands.png": "/wedding-website/static/media/hands.550e62b95f9ca6000fa4.png",
-    "static/media/long-2.png": "/wedding-website/static/media/long-2.a56faba7e091df772181.png",
     "static/media/hand.png": "/wedding-website/static/media/hand.375d0410010d106d1508.png",
-    "static/media/collage.png": "/wedding-website/static/media/collage.1ba8493eb089446a7080.png",
+    "static/media/checkers.png": "/wedding-website/static/media/checkers.5d62080479c66cdab04b.png",
     "static/media/headshot.png": "/wedding-website/static/media/headshot.3dc44c731177f6ba8829.png",
     "static/media/matthew-2.png": "/wedding-website/static/media/matthew-2.5fe2297d6ffc5889c176.png",
     "static/media/merel-2.png": "/wedding-website/static/media/merel-2.ea50e015de2a55454887.png",
@@ -15,12 +15,12 @@
     "static/media/after-party-300.png": "/wedding-website/static/media/after-party-300.6ce4c862aec2bb9334d0.png",
     "static/media/logo-w.png": "/wedding-website/static/media/logo-w.f77945f17af977baccf4.png",
     "index.html": "/wedding-website/index.html",
-    "main.dfcff5ec.css.map": "/wedding-website/static/css/main.dfcff5ec.css.map",
-    "main.7000ae74.js.map": "/wedding-website/static/js/main.7000ae74.js.map",
+    "main.81ef02cb.css.map": "/wedding-website/static/css/main.81ef02cb.css.map",
+    "main.db7a4d47.js.map": "/wedding-website/static/js/main.db7a4d47.js.map",
     "453.770c9077.chunk.js.map": "/wedding-website/static/js/453.770c9077.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfcff5ec.css",
-    "static/js/main.7000ae74.js"
+    "static/css/main.81ef02cb.css",
+    "static/js/main.db7a4d47.js"
   ]
 }

@@ -57,13 +57,13 @@ export default function QA() {
   const inactives = tabs.filter((t) => t.id !== activeTab);
 
   return (
-    <div className="bg-beige bg-opacity-60 mx-4 mt-6 p-4 rounded-3xl shadow-md flex flex-col md:flex-row items-start gap-6">
+    <div className="bg-beige bg-opacity-60 mx-4 mt-6 p-4 rounded-br-2xl shadow-md flex flex-col md:flex-row items-start gap-6">
       {/* Tabs Container */}
       <div className="w-full flex flex-row md:flex-col gap-2 md:gap-4 md:w-[50%]">
         {/* Active tab (larger on mobile) */}
         <button
           key={active.id}
-          className="flex-1 py-4 px-4 text-white bg-darkBeige text-lg font-semibold rounded-lg md:w-full"
+          className="flex-1 py-4 px-4 text-white bg-darkBeige text-lg font-semibold rounded-br-2xl md:w-full"
           onClick={() => setActiveTab(active.id)}
         >
           {active.label}
@@ -74,7 +74,7 @@ export default function QA() {
           {inactives.map((tab) => (
             <button
               key={tab.id}
-              className="bg-darkBeige/10 text-white text-sm py-2 px-2 rounded-md md:text-base hover:bg-darkBeige/20"
+              className="bg-darkBeige/10 text-white text-sm py-2 px-2 rounded-br-2xl md:text-base hover:bg-darkBeige/20"
               onClick={() => setActiveTab(tab.id)}
             >
               {tab.label}

@@ -6,7 +6,7 @@ function MrMrs() {
   return (
     <div className="text-center md:py-12">
       <div className="flex flex-col items-center">
-        <h1 className="text-white">Mr & Mrs O'Brien</h1>
+        <h1 className="text-white text-[3rem] md:text-lg">Mr & Mrs O'Brien</h1>
         <div data-aos="fade-up">
           <FlipClock></FlipClock>
         </div>

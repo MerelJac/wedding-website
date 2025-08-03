@@ -48,7 +48,7 @@ export default function FAQ() {
             key={tab.id}
             className={`py-2 px-4 sm:text-sm md:text-md${
               activeTab === tab.id
-                ? "text-black bg-white rounded-t-lg"
+                ? "text-black bg-white rounded-br-2xl"
                 : "text-white"
             }`}
             onClick={() => setActiveTab(tab.id)}

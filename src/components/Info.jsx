@@ -3,7 +3,7 @@ import afterParty from "../assets/after-party-300.png";
 function Info() {
   return (
     <div className=" bg-[url('./assets/hands.png')] bg-cover bg-center bg-no-repeat md:bg-fixed shadow-lg px-10 py-12  min-h-[90vh]">
-      <div className="bg-backgrounBeige bg-opacity-60 flex items-center rounded-2xl md:flex-row flex-col flex-col-reverse min-h-[80vh] justify-center">
+      <div className="bg-backgrounBeige bg-opacity-60 flex items-center rounded-br-2xl md:flex-row flex-col flex-col-reverse min-h-[80vh] justify-center">
       {/* Main content */}
       <div data-aos="zoom-in" className="flex flex-col justify-start pl-4  pt-6 md:pt-0">
         {/* Top Info Row */}

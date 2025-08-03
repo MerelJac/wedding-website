@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div className="relative top-0 left-0  min-h-screen  max-w-[100vw] bg-[url('./assets/long-2.png')] md:bg-[url('./assets/collage.png')] md:bg-cover bg-contain bg-center md:bg-no-repeat md:bg-fixed">
+    <div className="relative top-0 left-0  min-h-screen  max-w-[100vw] bg-[url('./assets/checkers.png')] md:bg-[url('./assets/outfits.png')] md:bg-cover bg-contain bg-center md:bg-no-repeat md:bg-fixed">
       <div className="absolute top-0 left-0  h-full bg-black bg-opacity-10 z-10 pointer-events-none"></div>
 
       <div className="relative z-20">
