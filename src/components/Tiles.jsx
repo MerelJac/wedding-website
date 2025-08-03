@@ -65,11 +65,11 @@ export default function Tiles() {
               }`}
             >
               {/* Front */}
-              <div className="absolute backface-hidden bg-beige text-white rounded-br-2xl w-full h-full flex items-center justify-center p-4 text-center text-xl font-bold border border-darkBeige border-4 bg-opacity-90">
+              <div className="absolute backface-hidden bg-beige text-white rounded-br-2xl w-full h-full flex items-center justify-center p-4 text-center text-xl font-bold border  border-4 bg-opacity-90">
                 {item.question}
               </div>
               {/* Back */}
-              <div className="absolute backface-hidden rotate-y-180 bg-darkBeige text-white rounded-br-2xl w-full h-full flex items-center justify-center p-4 text-center text-lg border border-beige border-4 bg-opacity-90">
+              <div className="absolute backface-hidden rotate-y-180 bg-darkBeige text-white rounded-br-2xl w-full h-full flex items-center justify-center p-4 text-center text-lg border border-4 bg-opacity-90">
                 {item.answer}
               </div>
             </div>
