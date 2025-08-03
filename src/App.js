@@ -20,14 +20,14 @@ function App() {
   }, []);
 
   return (
-    <div className="relative top-0 left-0  min-h-screen  max-w-[100vw] bg-[url('./assets/outfits.png')] md:bg-cover bg-contain bg-center bg-no-repeat bg-fixed">
+    <div className="relative top-0 left-0  min-h-screen  max-w-[100vw] bg-[url('./assets/collage-2.png')]  md:bg-[url('./assets/outfits.png')] bg-cover bg-contain bg-center bg-no-repeat bg-fixed">
       <div className="absolute top-0 left-0  h-full bg-black bg-opacity-10 z-10 pointer-events-none"></div>
 
       <div className="relative z-20">
         <Header />
         <Info />
         <Buttons />
-        <div className="">
+        <div>
           <div className="pt-6">
             <QA />
           </div>
