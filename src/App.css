@@ -61,6 +61,7 @@ body {
 .fcc {
   transform: scale(0.6); /* Adjust the scale factor as needed */
   transform-origin: top center; /* Keeps it aligned properly */
+  gap: 3rem !important;
 }
 
 
