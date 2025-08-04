@@ -38,7 +38,7 @@ function MrMrs() {
         </div>
       </section>
 
-     <div data-aos="fade-up" className="flex flex-col items-center pt-2">
+     <div data-aos="fade-up" className="flex flex-col items-center pt-8">
           <FlipClock></FlipClock>
         </div>
     </div>

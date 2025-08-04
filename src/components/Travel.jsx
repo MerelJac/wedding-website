@@ -28,8 +28,8 @@ function Travel() {
           </div>
 
           {/* Body Text */}
-          <div className="text-end max-w-4xl">
-            <h3 className=" text-darkBeige  text-xl font-semibold mb-2">
+          <div className="text-end max-w-4xl mb-6">
+            <h3 className=" text-darkBeige  text-xl font-semibold">
               Lodging
             </h3>
             <p className="text-darkBeige">
@@ -38,8 +38,8 @@ function Travel() {
             </p>
           </div>
 
-          <div className="text-end max-w-4xl">
-            <h3 className=" text-darkBeige  text-xl font-semibold mb-2">
+          <div className="text-end max-w-4xl mb-6">
+            <h3 className=" text-darkBeige  text-xl font-semibold">
               Will there be food and drinks?
             </h3>
             <p className="text-darkBeige">
