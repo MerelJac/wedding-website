@@ -21,6 +21,7 @@ body {
   position: relative;
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,10 +35,10 @@ body {
 
 /* mobile */
 @media (max-width: 768px) {
-  .fcc,
+  /* .fcc,
   ._qWTcH {
     flex-direction: column;
-  }
+  } */
   p {
     font-size: medium;
   }
@@ -49,6 +50,7 @@ body {
   color: #61dafb;
 }
 
+/* Flip Clock */
 .fcc__digit_block div {
   background-color: #2d190e !important;
 }
@@ -56,6 +58,11 @@ body {
 .fcc__label {
   font: #e5e0d5 !important;
 }
+.fcc {
+  transform: scale(0.6); /* Adjust the scale factor as needed */
+  transform-origin: top center; /* Keeps it aligned properly */
+}
+
 
 @keyframes App-logo-spin {
   from {
