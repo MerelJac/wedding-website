@@ -16,7 +16,6 @@ module.exports = {
       darkBeige: "#2D190E",
       beige: "#8B765C",
       backgrounBeige: "#E5E0D5",
-      orange: "#ff7849",
       green: "#13ce66",
       yellow: "#ffc82c",
       "gray-dark": "#273444",
@@ -24,6 +23,8 @@ module.exports = {
       "gray-light": "#d3dce6",
       black: "#2d3748",
       white: "#fff",
+      orange: "#4D2912",
+      eggshell: "#B8A5A1"
     },
     extend: {
       dropShadow: {

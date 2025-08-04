@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-website/static/css/main.28d109a5.css",
-    "main.js": "/wedding-website/static/js/main.7aa66f5d.js",
+    "main.css": "/wedding-website/static/css/main.5d68bbd9.css",
+    "main.js": "/wedding-website/static/js/main.e100774e.js",
     "static/js/453.770c9077.chunk.js": "/wedding-website/static/js/453.770c9077.chunk.js",
     "static/media/stool.png": "/wedding-website/static/media/stool.bfb637380848e23042cd.png",
     "static/media/outfits.png": "/wedding-website/static/media/outfits.2eff4ed4fa6839cf97cc.png",
@@ -11,16 +11,22 @@
     "static/media/headshot.png": "/wedding-website/static/media/headshot.3dc44c731177f6ba8829.png",
     "static/media/matthew-2.png": "/wedding-website/static/media/matthew-2.5fe2297d6ffc5889c176.png",
     "static/media/merel-2.png": "/wedding-website/static/media/merel-2.ea50e015de2a55454887.png",
-    "static/media/thanks.png": "/wedding-website/static/media/thanks.93850c71a50bb15854a2.png",
+    "static/media/thanks.png": "/wedding-website/static/media/thanks.20d3268e89598b17992a.png",
+    "static/media/faq.png": "/wedding-website/static/media/faq.d82cc8704ff5f2c02ac6.png",
+    "static/media/mr&mrs.png": "/wedding-website/static/media/mr&mrs.fee5cb944760b0054191.png",
+    "static/media/registry.png": "/wedding-website/static/media/registry.fd76d57c8669e8f2cdf3.png",
+    "static/media/rsvp.png": "/wedding-website/static/media/rsvp.c6e818434cca82a9b4b1.png",
     "static/media/after-party-300.png": "/wedding-website/static/media/after-party-300.6ce4c862aec2bb9334d0.png",
+    "static/media/planning.png": "/wedding-website/static/media/planning.ed6eed3d3661a88403d3.png",
+    "static/media/here.png": "/wedding-website/static/media/here.31f59884ae99bf622a1b.png",
     "static/media/logo-w.png": "/wedding-website/static/media/logo-w.f77945f17af977baccf4.png",
     "index.html": "/wedding-website/index.html",
-    "main.28d109a5.css.map": "/wedding-website/static/css/main.28d109a5.css.map",
-    "main.7aa66f5d.js.map": "/wedding-website/static/js/main.7aa66f5d.js.map",
+    "main.5d68bbd9.css.map": "/wedding-website/static/css/main.5d68bbd9.css.map",
+    "main.e100774e.js.map": "/wedding-website/static/js/main.e100774e.js.map",
     "453.770c9077.chunk.js.map": "/wedding-website/static/js/453.770c9077.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28d109a5.css",
-    "static/js/main.7aa66f5d.js"
+    "static/css/main.5d68bbd9.css",
+    "static/js/main.e100774e.js"
   ]
 }
