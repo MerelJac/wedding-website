@@ -11,7 +11,6 @@ import Buttons from "./components/Buttons";
 import ThankYou from "./components/ThankYou";
 import Freq from "./components/Freq";
 import Travel from "./components/Travel";
-import ToDo from "./components/ToDo";
 
 function App() {
   useEffect(() => {
@@ -33,7 +32,6 @@ function App() {
           <div className="pt-6">
             <Freq/>
             <Travel/>
-            <ToDo/>
           </div>
 
           <MrMrs />

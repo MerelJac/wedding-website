@@ -31,6 +31,16 @@ function Freq() {
             </p>
           </div>
 
+                    <div className="text-start max-w-4xl mb-6">
+            <h3 className=" text-darkBeige  text-xl font-semibold">
+              Can I bring kids?
+            </h3>
+            <p className="text-darkBeige">
+              Call the babysitter! This is an adults-only event. We love your
+              kids, but we want you to have a night off to celebrate with us.
+            </p>
+          </div>
+
           <div className="text-start max-w-4xl mb-6">
             <h3 className=" text-darkBeige  text-xl font-semibold">
              Will there be food and drinks?

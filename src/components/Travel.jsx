@@ -29,9 +29,7 @@ function Travel() {
 
           {/* Body Text */}
           <div className="text-end max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Lodging
-            </h3>
+            <h3 className=" text-darkBeige  text-xl font-semibold">Lodging</h3>
             <p className="text-darkBeige">
               Feel free to stay wherever you want, but the newly weds will be
               staying in Dundee, OR the weekend of the wedding.
@@ -40,10 +38,12 @@ function Travel() {
 
           <div className="text-end max-w-4xl mb-6">
             <h3 className=" text-darkBeige  text-xl font-semibold">
-              Will there be food and drinks?
+              Explore the Area
             </h3>
             <p className="text-darkBeige">
-              You bet! Come hungry and ready to toast.
+              The Pacific Northwest in the summer is beautiful! Since the party
+              is Saturday evening, make your trip worthwhile by hitting some
+              hikes, lakes, shopping, and most importantly, eating in Portland.
             </p>
           </div>
         </div>
