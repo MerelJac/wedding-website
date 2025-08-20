@@ -36,8 +36,7 @@ function Freq() {
               Can I bring kids?
             </h3>
             <p className="text-darkBeige">
-              Call the babysitter! This is an adults-only event. We love your
-              kids, but we want you to have a night off to celebrate with us.
+              The venue is a glass tasting room so if you'd like an excuse to call a babysitter, feel free, otherwise well behaved kids are welcome! Please note them in your RSVP so we can plan accordingly.
             </p>
           </div>
 
