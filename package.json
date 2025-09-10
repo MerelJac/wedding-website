@@ -13,6 +13,7 @@
     "nodemailer": "^7.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-router-dom": "^7.8.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -23,8 +24,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-"full-deploy": "npm run build && rm -rf docs && mv build docs && git add -A && git commit -m \"build\" && git push"
-
+    "full-deploy": "npm run build && rm -rf docs && mv build docs && git add -A && git commit -m \"build\" && git push"
   },
   "eslintConfig": {
     "extends": [

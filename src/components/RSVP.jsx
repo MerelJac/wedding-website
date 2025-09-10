@@ -84,7 +84,7 @@ export default function RSVP({ onClose }) {
         <button style={button} onClick={handleSaveAll}>
           Save RSVP!
         </button>
-        <small>Reminder: No additional plus ones please!</small>
+        <small>Reminder: No additional plus ones please! If we are missing someone, please mention them in the notes.</small>
       </div>
     );
   }
