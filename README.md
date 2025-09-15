@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+Use git push origin main to update GitHub.
+
+Use git push heroku main to deploy to Heroku.
+heroku login if not logged in to correct account 
+
+dev
 ```
-npm run predeploy
-npm run deploy
-git add
-git commit -m 
-git push 
+nvm use v18.20.8
+npm run dev
 ```
+after making front end changes, run 
+```
+npm run fulldeploy
+```
+ from root directory to push changes live

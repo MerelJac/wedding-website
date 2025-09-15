@@ -1,34 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    fontFamily: {
-      amatic: ["'Amatic SC'", "cursive"],
-      raleway: ["'Raleway'", "sans-serif"],
-    },
-    screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
-    },
-    colors: {
-      darkBeige: "#2D190E",
-      beige: "#8B765C",
-      backgrounBeige: "#E5E0D5",
-      green: "#13ce66",
-      yellow: "#ffc82c",
-      "gray-dark": "#273444",
-      gray: "#8492a6",
-      "gray-light": "#d3dce6",
-      black: "#2d3748",
-      white: "#fff",
-      orange: "#4D2912",
-      eggshell: "#B8A5A1"
-    },
     extend: {
-      dropShadow: {
-        text: "1px 1px 4px rgba(0, 0, 0, 0.15)",
+      colors: {
+        darkBeige: "#2D190E",
+        beige: "#8B765C",
+        backgroundBeige: "#E5E0D5", // ✅ fixed typo
+        green: "#13ce66",
+        yellow: "#ffc82c",
+        "gray-dark": "#273444",
+        gray: "#8492a6",
+        "gray-light": "#d3dce6",
+        black: "#2d3748",
+        white: "#fff",
+        orange: "#4D2912",
+        eggshell: "#B8A5A1",
       },
     },
   },

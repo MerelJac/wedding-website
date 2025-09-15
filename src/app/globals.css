@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+/* --------------------
+   CSS Variables / Theme
+--------------------- */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-amatic: var(--font-amatic);
+  --font-raleway: var(--font-raleway);
+
+  --color-darkBeige: #2D190E;
+  --color-beige: #8B765C;
+  --color-backgroundBeige: #E5E0D5;
+  --color-green: #13ce66;
+  --color-yellow: #ffc82c;
+  --color-gray-dark: #273444;
+  --color-gray: #8492a6;
+  --color-gray-light: #d3dce6;
+  --color-black: #2d3748;
+  --color-white: #fff;
+  --color-orange: #4D2912;
+  --color-eggshell: #B8A5A1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-raleway);
+  overflow-x: hidden; /* ✅ added */
+  position: relative; /* ✅ added */
+}
+
+/* --------------------
+   React CRA-style Rules
+--------------------- */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* --------------------
+   Mobile Overrides
+--------------------- */
+@media (max-width: 768px) {
+  p {
+    font-size: medium;
+  }
+  .fcc__separator {
+    display: none !important;
+  }
+}
+
+/* --------------------
+   Flip Clock Customization
+--------------------- */
+.fcc__digit_block div {
+  background-color: #2d190e !important;
+}
+.fcc__digit_block div,
+.fcc__label {
+  color: #e5e0d5 !important;
+}
+.fcc {
+  transform: scale(0.6);
+  transform-origin: top center;
+  gap: 3rem !important;
+}
+
+/* --------------------
+   Animations
+--------------------- */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Flip card container */
+.perspective {
+  perspective: 1000px;
+}
+
+/* The wrapper that rotates */
+.flip-card-inner {
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Rotate when flipped */
+.flip-card-inner.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Front and back faces */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* hides the back when front is facing */
+  border-radius: 0 0 1rem 0; /* same rounded-br-2xl */
+}
+
+/* Back face rotated */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
