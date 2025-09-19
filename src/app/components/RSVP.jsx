@@ -10,12 +10,12 @@ export default function RSVP({ onClose }) {
           ✕
         </button>
         <page className="flex flex-col justify-center gap-2 items-center text-center">
-          <p>
+          <p className="text-darkBeige">
             Confirm your RSVP by texting Merel & include all
             people in your party!
           </p>
 <ContactButton/>
-          <p>
+          <p className="text-darkBeige">
             Please be mindful that we are not welcoming plus ones that were not
             on the original invitiation. If we forgot someone, contact us & let
             us know!{" "}
