@@ -13,7 +13,7 @@ import "./globals.css";
 export default function WeddingSite() {
 
   return (
-    <div className="relative top-0 left-0 min-h-screen max-w-[100vw] bg-[url('/blue.png')] md:bg-[url('/outfits.png')] md:bg-cover bg-contain bg-center md:bg-no-repeat md:bg-fixed">
+    <div className="relative top-0 left-0 min-h-screen max-w-[100vw] bg-[url('/blue.png')] md:bg-[url('/outfits.png')] md:bg-cover bg-contain bg-center md:bg-no-repeat md:bg-fixed overflow-x-hidden">
       <div className="absolute top-0 left-0 h-full bg-black bg-opacity-10 z-10 pointer-events-none"></div>
 
       <div className="relative z-20">

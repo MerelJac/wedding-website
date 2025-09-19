@@ -28,7 +28,7 @@ function MrMrs() {
             width={200}
             height={200}
           ></Image>
-          <h2 className="text-white">Merel</h2>
+          <h3 className="pt-4 text-white text-xl font-semibold">Merel</h3>
           <p className="text-white">The Bride</p>
         </div>
 
@@ -44,7 +44,7 @@ function MrMrs() {
             width={200}
             height={200}
           ></Image>
-          <h2 className="text-white">Matthew</h2>
+          <h3 className="pt-4 text-white text-xl font-semibold">Matthew</h3>
           <p className="text-white">The Groom</p>
         </div>
       </section>

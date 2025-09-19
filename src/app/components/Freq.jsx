@@ -59,7 +59,7 @@ function Freq() {
 
           <div className="text-start max-w-4xl mb-6">
             <h3 className=" text-darkBeige  text-xl font-semibold">
-              Parking & Driving.
+              Parking & Driving?
             </h3>
             <p className="text-darkBeige">
               There is parking on the property but please carpool if you can!
