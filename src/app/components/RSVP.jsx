@@ -9,7 +9,7 @@ export default function RSVP({ onClose }) {
         <button onClick={onClose} style={closeBtn}>
           ✕
         </button>
-        <page className="flex flex-col justify-center gap-2 items-center text-center">
+        <div className="flex flex-col justify-center gap-2 items-center text-center">
           <p className="text-darkBeige">
             Confirm your RSVP by texting Merel & include all
             people in your party!
@@ -20,7 +20,7 @@ export default function RSVP({ onClose }) {
             on the original invitiation. If we forgot someone, contact us & let
             us know!{" "}
           </p>
-        </page>
+        </div>
       </div>
     </div>
   );

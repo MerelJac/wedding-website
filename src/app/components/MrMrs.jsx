@@ -7,7 +7,7 @@ function MrMrs() {
       <div className="flex flex-col items-center">
         <div data-aos="fade-left" className=" whitespace-nowrap">
           <Image
-            src="/mr&mrs.png"
+            src="/mr&mrs.svg"
             alt="Mr & Mrs O'Brien"
             width={400}
             height={400}
@@ -28,8 +28,6 @@ function MrMrs() {
             width={200}
             height={200}
           ></Image>
-          <h3 className="pt-4 text-white text-xl font-semibold">Merel</h3>
-          <p className="text-white">The Bride</p>
         </div>
 
         {/* Groom */}
@@ -44,8 +42,6 @@ function MrMrs() {
             width={200}
             height={200}
           ></Image>
-          <h3 className="pt-4 text-white text-xl font-semibold">Matthew</h3>
-          <p className="text-white">The Groom</p>
         </div>
       </section>
 

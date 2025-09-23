@@ -24,13 +24,13 @@ function Buttons() {
           <Image
             width={300}
             height={300}
-            src="/rsvp.png"
+            src="/rsvp.svg"
             alt="RSVP"
             className="max-w-full h-auto"
           ></Image>
         </button>
         <Button
-          image="/registry.png"
+          image="/registry.svg"
           href="https://www.zola.com/registry/merelandmatthew"
         />
       </div>

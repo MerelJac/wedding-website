@@ -11,7 +11,7 @@ function ThankYou() {
       ></Image>
 
       <div data-aos="fade-left" className="text-center md:text-left">
-        <Image className="md:max-w-[30vw]" src="/thanks.png" alt="thanks"  width={400}
+        <Image className="md:max-w-[30vw]" src="/thanks.svg" alt="thanks"  width={400}
             height={400}></Image>
       </div>
     </div>

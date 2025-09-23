@@ -5,7 +5,7 @@ function Initials() {
   return (
     <div className="relative z-10">
       <Image
-        src="/logo-w.png"
+        src="/m&m.svg"
         alt="Merel and Matthew"
         width={300}
         height={300}
