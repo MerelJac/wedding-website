@@ -18,14 +18,13 @@ function Travel() {
         {/* Main content */}
         <div
           data-aos="zoom-in"
-          className="flex flex-col justify-start pr-4  pt-6 md:pt-0"
+          className="flex flex-col justify-start pr-4  pt-6 md:pt-0 items-end"
         >
           {/* Top Info Row */}
           <div className="flex flex-col justify-between text-end mb-6">
             <h3 className="text-darkBeige  text-xl font-semibold">Airport</h3>
             <p className="text-darkBeige">
-              Fly into PDX There is public transport or Uber/Lyfts into the
-              city.
+              Easiest & closest airport is PDX! There is public transportation or Uber/Lyfts around and into Portland. Rental cars or Ubers/Lyfts are probably your best bet to Dundee, which is about 40 minutes southwest of Portland.
             </p>
           </div>
 

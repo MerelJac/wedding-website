@@ -27,7 +27,7 @@ function Info() {
               we’d love for you to join us for a celebration!
             </h3>
             <p className="text-darkBeige">
-              There’ll be food, drinks, dancing, games, some speeches, our vows,
+              There will be food, drinks, dancing, games, some speeches, our vows,
               and lots of good company.
             </p>
           </div>

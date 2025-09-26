@@ -33,7 +33,7 @@ function Freq() {
             </h3>
             <p className="text-darkBeige">
               Short answer - nope! Whoever's name is on the invite is who we
-              want with us! Thank you for understanding.
+              want with us! Thank you for understanding. If we made a mistake, just give us a text or a call! 
             </p>
           </div>
 
@@ -63,9 +63,9 @@ function Freq() {
             </h3>
             <p className="text-darkBeige">
               There is parking on the property but please carpool if you can!
-              Rides like Uber & lyft are also availbale in the area.
+              Rides like Uber & Lyft are also available in the area.
               <br />
-              We will have tons of non-alocholic options for designated drivers.
+              We will have tons of non-alcoholic options for designated drivers.
               Please plan accordingly so everyone gets home safe from our party.
             </p>
           </div>
@@ -75,7 +75,7 @@ function Freq() {
               Continuing the party?
             </h3>
             <p className="text-darkBeige">
-              Sunday morning we will be having a casual brunch at TBD from 9-12am for anyone who
+              Sunday morning we will be having a casual breakfast at TBD from 8 - 11am for anyone who
               wants to join. No need to RSVP, just show up if you're around and
               want to continue the celebration & give a proper goodbye!
             </p>
