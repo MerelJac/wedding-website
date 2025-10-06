@@ -2,14 +2,47 @@
 import { useState } from "react";
 
 const faqItems = [
-  { question: "What is Matthew & Merel's coined 'second date'?", answer: "Long weekend in Victoria, Canada." },
-  { question: "What sport was required for Matthew to be accepted into Merel's family?", answer: "Skiing, duh!" },
-  { question: "How did Matthew & Merel meet?", answer: "Hinge..." },
-  { question: "What lazy dinner do they have a little too often?", answer: "Frozen pizza." },
-  { question: "Where did Matthew propose?", answer: "On the beach outside of Amsterdam - Zandvoort & Zee" },
-  { question: "What is Matthew's non-negotiable?", answer: "Golf clubs can stay in the living room where driving and putting can be practiced often." },
-  { question: "What O'Brien family tradition did Merel get adopted into?", answer: "Fireball Friday!" },
-  { question: "When Matthew & Merel first started dating, who was the last person of girlfriend approval needed?", answer: "His pedicureist @ Sparkle Nail" }
+  {
+    question: "What is Matthew & Merel's coined 'second date'?",
+    answer: "Long weekend in Victoria, Canada.",
+  },
+  {
+    question:
+      "What sport was required for Matthew to be accepted into Merel's family?",
+    answer: "Skiing, duh!",
+  },
+  { question: "How did Matthew & Merel meet?", answer: "Hinge" },
+  {
+    question: "What lazy dinner do they have a little too often?",
+    answer: "Frozen pizza.",
+  },
+  {
+    question: "Where did Matthew propose?",
+    answer: "On the beach outside of Amsterdam - Zandvoort & Zee",
+  },
+  {
+    question: "What is Matthew's non-negotiable?",
+    answer:
+      "Golf clubs can stay in the living room where driving and putting can be practiced often.",
+  },
+  {
+    question: "What is Merel's non-negotiable?",
+    answer: "Matthew makes the bed every morning.",
+  },
+  {
+    question: "What O'Brien family tradition did Merel get adopted into?",
+    answer: "Fireball Friday!",
+  },
+  {
+    question:
+      "When Matthew & Merel first started dating, who was the last person of girlfriend approval needed?",
+    answer: "His pedicureist @ Sparkle Nail",
+  },
+  {
+    question:
+      "When Matthew broke his foot, how did they compromise going for nightly walks?",
+    answer: "Merel pushed him 3+ miles a day around the city in a wheelchair.",
+  }
 ];
 
 export default function Tiles() {

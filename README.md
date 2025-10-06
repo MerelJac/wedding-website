@@ -10,6 +10,8 @@ npm run dev
 ```
 after making front end changes, run 
 ```
-npm run fulldeploy
+npm run build
+git add, commit, push
+npm run heroku
 ```
  from root directory to push changes live

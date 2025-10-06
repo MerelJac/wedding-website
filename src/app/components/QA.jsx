@@ -41,8 +41,7 @@ const tabContent = {
       </p>
       <h3 className="pt-4">Can I bring a plus one?</h3>
       <p>
-        Short answer - nope! Whoever's name is on the invite is who we want with
-        us! Thank you for understanding.
+      Not this time... We’ve carefully chosen our guest list, but if you think we might’ve missed something, feel free to reach out. Thanks for understanding!
       </p>
       <h3 className="pt-4">Will there be food and drinks?</h3>
       <p>You bet! Come hungry and ready to toast.</p>

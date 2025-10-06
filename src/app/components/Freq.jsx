@@ -32,8 +32,9 @@ function Freq() {
               Can I bring a plus one?
             </h3>
             <p className="text-darkBeige">
-              Short answer - nope! Whoever's name is on the invite is who we
-              want with us! Thank you for understanding. If we made a mistake, just give us a text or a call! 
+              Not this time... We’ve carefully chosen our guest list, but if you
+              think we might’ve missed something, feel free to reach out. Thanks
+              for understanding!
             </p>
           </div>
 
@@ -75,9 +76,20 @@ function Freq() {
               Continuing the party?
             </h3>
             <p className="text-darkBeige">
-              Sunday morning we will be having a casual breakfast at TBD from 8 - 11am for anyone who
-              wants to join. No need to RSVP, just show up if you're around and
-              want to continue the celebration & give a proper goodbye!
+              Lumpy's dive bar is down the street from the venue, open till 2am,
+              and has cheap booze and pool. If you're looking to keep the party
+              going, that's the spot!
+            </p>
+          </div>
+          <div className="text-start max-w-4xl mb-6">
+            <h3 className=" text-darkBeige  text-xl font-semibold">
+              Goodbye Breakfast?
+            </h3>
+            <p className="text-darkBeige">
+              Sunday morning we will be having a casual breakfast at our AirBnB from 9
+              - 11am for anyone who wants to join. Just show up
+              if you're around and want to continue the celebration & give a
+              proper goodbye!
             </p>
           </div>
         </div>
