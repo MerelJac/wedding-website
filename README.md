@@ -12,6 +12,7 @@ after making front end changes, run
 ```
 npm run build
 git add, commit, push
+( run `heroku login` to authenticate heroku )
 npm run heroku
 ```
  from root directory to push changes live

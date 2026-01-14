@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import ContactButton from "./ContactButton";
-
 
 export default function RSVP({ onClose }) {
   return (
@@ -11,11 +10,10 @@ export default function RSVP({ onClose }) {
         </button>
         <div className="flex flex-col justify-center gap-2 items-center text-center">
           <p className="text-darkBeige">
-            Confirm your RSVP by texting Merel & include all
-            people in your party!
+            Confirm your RSVP by texting Merel & include all people in your party!
           </p>
           <strong>Please RSVP by May 8, 2026</strong>
-<ContactButton/>
+          <ContactButton />
           <p className="text-darkBeige">
             Please be mindful that we are not welcoming plus ones that were not
             on the original invitiation. If we forgot someone, contact us & let
