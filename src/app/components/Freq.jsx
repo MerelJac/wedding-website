@@ -86,11 +86,22 @@ function Freq() {
               Goodbye Breakfast?
             </h3>
             <p className="text-darkBeige">
-              Sunday morning we will be having a casual breakfast at our AirBnB from 9
-              - 11am for anyone who wants to join. Just show up
-              if you're around and want to continue the celebration & give a
-              proper goodbye!
+              Sunday morning we will be having a casual breakfast at our Wooden
+              Heart from 8:30 - 11am for anyone who wants to join. Show up if
+              you're around and want to continue the celebration & give a proper
+              goodbye!
             </p>
+            <a
+              href="https://maps.google.com/?q=1410+OR-99W+Suite+101+Dundee+OR+97115"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <address className="flex flex-col not-italic">
+                <small className="pt-4">1410 OR-99W Suite 101</small>
+                <small>Dundee, OR 97115</small>
+              </address>
+            </a>
           </div>
         </div>
 
