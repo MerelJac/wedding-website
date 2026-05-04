@@ -1,12 +1,6 @@
-"use client";
-import Aos from "aos";
 import Image from "next/image";
-import { useEffect } from "react";
 
 function Freq() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
     <div className=" px-10 py-12  min-h-[90vh]">
       <div className="bg-backgroundBeige bg-opacity-60 flex items-center rounded-br-2xl md:flex-row flex-col flex-col-reverse min-h-[80vh] justify-center">
@@ -15,93 +9,78 @@ function Freq() {
           data-aos="zoom-in"
           className="flex flex-col justify-start pl-4  pt-6 mt-4 md:pt-0"
         >
-          {/* Top Info Row */}
-          <div className="flex flex-col justify-between text-start mb-6">
-            <h3 className="text-darkBeige  text-xl font-semibold">
-              What to wear?
-            </h3>
-            <p className="text-darkBeige">
-              Think swanky winery! Wear suitable shoes for dancing and being
-              both indoors and outdoors.
-            </p>
-          </div>
+          <div className="flex flex-col">
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">What to wear?</h3>
+              <p className="text-darkBeige">
+                Think swanky winery! Wear suitable shoes for dancing and being
+                both indoors and outdoors.
+              </p>
+            </div>
 
-          {/* Body Text */}
-          <div className="text-start max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Can I bring a plus one?
-            </h3>
-            <p className="text-darkBeige">
-              Not this time... We’ve carefully chosen our guest list, but if you
-              think we might’ve missed something, feel free to reach out. Thanks
-              for understanding!
-            </p>
-          </div>
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">Can I bring a plus one?</h3>
+              <p className="text-darkBeige">
+                Not this time... We’ve carefully chosen our guest list, but if you
+                think we might’ve missed something, feel free to reach out. Thanks
+                for understanding!
+              </p>
+            </div>
 
-          <div className="text-start max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Can I bring kids?
-            </h3>
-            <p className="text-darkBeige">
-              The venue is a glass tasting room so if you'd like an excuse to
-              call a babysitter, feel free, otherwise well behaved kids are
-              welcome! Please note them in your RSVP so we can plan accordingly.
-            </p>
-          </div>
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">Can I bring kids?</h3>
+              <p className="text-darkBeige">
+                The venue is a glass tasting room so if you’d like an excuse to
+                call a babysitter, feel free, otherwise well behaved kids are
+                welcome! Please note them in your RSVP so we can plan accordingly.
+              </p>
+            </div>
 
-          <div className="text-start max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Will there be food and drinks?
-            </h3>
-            <p className="text-darkBeige">
-              You bet! Come hungry and ready to toast.
-            </p>
-          </div>
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">Will there be food and drinks?</h3>
+              <p className="text-darkBeige">You bet! Come hungry and ready to toast.</p>
+            </div>
 
-          <div className="text-start max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Parking & Driving?
-            </h3>
-            <p className="text-darkBeige">
-              There is parking on the property but please carpool if you can!
-              Rides like Uber & Lyft are also available in the area.
-              <br />
-              We will have tons of non-alcoholic options for designated drivers.
-              Please plan accordingly so everyone gets home safe from our party.
-            </p>
-          </div>
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">Parking & Driving?</h3>
+              <p className="text-darkBeige">
+                There is parking on the property but please carpool if you can!
+                Rides like Uber & Lyft are also available in the area.
+                <br />
+                We will have tons of non-alcoholic options for designated drivers.
+                Please plan accordingly so everyone gets home safe from our party.
+              </p>
+            </div>
 
-          <div className="text-start max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Continuing the party?
-            </h3>
-            <p className="text-darkBeige">
-              Lumpy's dive bar is down the street from the venue, open till 2am,
-              and has cheap booze and pool. If you're looking to keep the party
-              going, that's the spot!
-            </p>
-          </div>
-          <div className="text-start max-w-4xl mb-6">
-            <h3 className=" text-darkBeige  text-xl font-semibold">
-              Goodbye Breakfast?
-            </h3>
-            <p className="text-darkBeige">
-              Sunday morning we will be having a casual breakfast at our Wooden
-              Heart from 8:30 - 11am for anyone who wants to join. Show up if
-              you're around and want to continue the celebration & give a proper
-              goodbye!
-            </p>
-            <a
-              href="https://maps.google.com/?q=1410+OR-99W+Suite+101+Dundee+OR+97115"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <address className="flex flex-col not-italic">
-                <small className="pt-4 text-darkBeige">1410 OR-99W Suite 101</small>
-                <small className="text-darkBeige">Dundee, OR 97115</small>
-              </address>
-            </a>
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">Continuing the party?</h3>
+              <p className="text-darkBeige">
+                Lumpy’s dive bar is down the street from the venue, open till 2am,
+                and has cheap booze and pool. If you’re looking to keep the party
+                going, that’s the spot!
+              </p>
+            </div>
+
+            <div className="text-start max-w-4xl py-5">
+              <h3 className="text-darkBeige text-xl font-semibold mb-1">Goodbye Breakfast?</h3>
+              <p className="text-darkBeige">
+                Sunday morning we will be having a casual breakfast at our Wooden
+                Heart from 8:30 - 11am for anyone who wants to join. Show up if
+                you’re around and want to continue the celebration & give a proper
+                goodbye!
+              </p>
+              <a
+                href="https://maps.google.com/?q=1410+OR-99W+Suite+101+Dundee+OR+97115"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <address className="flex flex-col not-italic">
+                  <small className="pt-3 text-darkBeige">1410 OR-99W Suite 101</small>
+                  <small className="text-darkBeige">Dundee, OR 97115</small>
+                </address>
+              </a>
+            </div>
           </div>
         </div>
 

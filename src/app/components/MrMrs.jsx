@@ -1,4 +1,3 @@
-import "aos/dist/aos.css";
 import FlipClock from "./FlipClock";
 import Image from "next/image";
 function MrMrs() {

@@ -10,7 +10,8 @@ function Initials() {
         width={300}
         height={300}
         className="max-w-[60vw] sm:max-w-sm md:max-w-md"
-      ></Image>
+        priority
+      />
     </div>
   );
 }
