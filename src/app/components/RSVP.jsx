@@ -12,7 +12,7 @@ export default function RSVP({ onClose }) {
           <p className="text-darkBeige">
             Confirm your RSVP by texting Merel & include all people in your party!
           </p>
-          <strong>Please RSVP by May 8, 2026</strong>
+          <strong className="text-darkBeige">Please RSVP by May 8, 2026</strong>
           <ContactButton />
           <p className="text-darkBeige">
             Please be mindful that we are not welcoming plus ones that were not

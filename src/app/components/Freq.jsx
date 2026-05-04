@@ -98,8 +98,8 @@ function Freq() {
               className="block"
             >
               <address className="flex flex-col not-italic">
-                <small className="pt-4">1410 OR-99W Suite 101</small>
-                <small>Dundee, OR 97115</small>
+                <small className="pt-4 text-darkBeige">1410 OR-99W Suite 101</small>
+                <small className="text-darkBeige">Dundee, OR 97115</small>
               </address>
             </a>
           </div>
